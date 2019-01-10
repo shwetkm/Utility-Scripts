@@ -1,5 +1,5 @@
 import re
-# source : https://www.kdnuggets.com/2018/03/feature-engineering-dates-fastai.html
+# reference : https://www.kdnuggets.com/2018/03/feature-engineering-dates-fastai.html
 
 def add_datepart(df, fldname, drop=True):
   fld = df[fldname]
